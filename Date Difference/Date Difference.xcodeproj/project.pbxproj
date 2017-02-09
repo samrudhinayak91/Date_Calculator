@@ -1,0 +1,514 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		A112EF121CD1567E00ECE987 /* GregarianCalendar.swift in Sources */ = {isa = PBXBuildFile; fileRef = A112EF111CD1567D00ECE987 /* GregarianCalendar.swift */; };
+		A13328591CCAC26600C527F3 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A13328581CCAC26600C527F3 /* AppDelegate.swift */; };
+		A133285B1CCAC26600C527F3 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A133285A1CCAC26600C527F3 /* ViewController.swift */; };
+		A133285E1CCAC26600C527F3 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A133285C1CCAC26600C527F3 /* Main.storyboard */; };
+		A13328601CCAC26600C527F3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A133285F1CCAC26600C527F3 /* Assets.xcassets */; };
+		A13328631CCAC26600C527F3 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A13328611CCAC26600C527F3 /* LaunchScreen.storyboard */; };
+		A133286E1CCAC26700C527F3 /* Date_DifferenceTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A133286D1CCAC26700C527F3 /* Date_DifferenceTests.swift */; };
+		A13328791CCAC26700C527F3 /* Date_DifferenceUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A13328781CCAC26700C527F3 /* Date_DifferenceUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		A133286A1CCAC26700C527F3 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A133284D1CCAC26600C527F3 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A13328541CCAC26600C527F3;
+			remoteInfo = "Date Difference";
+		};
+		A13328751CCAC26700C527F3 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A133284D1CCAC26600C527F3 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A13328541CCAC26600C527F3;
+			remoteInfo = "Date Difference";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		A112EF111CD1567D00ECE987 /* GregarianCalendar.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GregarianCalendar.swift; sourceTree = "<group>"; };
+		A13328551CCAC26600C527F3 /* Date Difference.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Date Difference.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		A13328581CCAC26600C527F3 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		A133285A1CCAC26600C527F3 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		A133285D1CCAC26600C527F3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		A133285F1CCAC26600C527F3 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		A13328621CCAC26600C527F3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		A13328641CCAC26600C527F3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A13328691CCAC26700C527F3 /* Date DifferenceTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Date DifferenceTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		A133286D1CCAC26700C527F3 /* Date_DifferenceTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Date_DifferenceTests.swift; sourceTree = "<group>"; };
+		A133286F1CCAC26700C527F3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A13328741CCAC26700C527F3 /* Date DifferenceUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Date DifferenceUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		A13328781CCAC26700C527F3 /* Date_DifferenceUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Date_DifferenceUITests.swift; sourceTree = "<group>"; };
+		A133287A1CCAC26700C527F3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A13328521CCAC26600C527F3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A13328661CCAC26700C527F3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A13328711CCAC26700C527F3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		A133284C1CCAC26600C527F3 = {
+			isa = PBXGroup;
+			children = (
+				A13328571CCAC26600C527F3 /* Date Difference */,
+				A133286C1CCAC26700C527F3 /* Date DifferenceTests */,
+				A13328771CCAC26700C527F3 /* Date DifferenceUITests */,
+				A13328561CCAC26600C527F3 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		A13328561CCAC26600C527F3 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A13328551CCAC26600C527F3 /* Date Difference.app */,
+				A13328691CCAC26700C527F3 /* Date DifferenceTests.xctest */,
+				A13328741CCAC26700C527F3 /* Date DifferenceUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A13328571CCAC26600C527F3 /* Date Difference */ = {
+			isa = PBXGroup;
+			children = (
+				A13328581CCAC26600C527F3 /* AppDelegate.swift */,
+				A133285A1CCAC26600C527F3 /* ViewController.swift */,
+				A112EF111CD1567D00ECE987 /* GregarianCalendar.swift */,
+				A133285C1CCAC26600C527F3 /* Main.storyboard */,
+				A133285F1CCAC26600C527F3 /* Assets.xcassets */,
+				A13328611CCAC26600C527F3 /* LaunchScreen.storyboard */,
+				A13328641CCAC26600C527F3 /* Info.plist */,
+			);
+			path = "Date Difference";
+			sourceTree = "<group>";
+		};
+		A133286C1CCAC26700C527F3 /* Date DifferenceTests */ = {
+			isa = PBXGroup;
+			children = (
+				A133286D1CCAC26700C527F3 /* Date_DifferenceTests.swift */,
+				A133286F1CCAC26700C527F3 /* Info.plist */,
+			);
+			path = "Date DifferenceTests";
+			sourceTree = "<group>";
+		};
+		A13328771CCAC26700C527F3 /* Date DifferenceUITests */ = {
+			isa = PBXGroup;
+			children = (
+				A13328781CCAC26700C527F3 /* Date_DifferenceUITests.swift */,
+				A133287A1CCAC26700C527F3 /* Info.plist */,
+			);
+			path = "Date DifferenceUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		A13328541CCAC26600C527F3 /* Date Difference */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A133287D1CCAC26700C527F3 /* Build configuration list for PBXNativeTarget "Date Difference" */;
+			buildPhases = (
+				A13328511CCAC26600C527F3 /* Sources */,
+				A13328521CCAC26600C527F3 /* Frameworks */,
+				A13328531CCAC26600C527F3 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Date Difference";
+			productName = "Date Difference";
+			productReference = A13328551CCAC26600C527F3 /* Date Difference.app */;
+			productType = "com.apple.product-type.application";
+		};
+		A13328681CCAC26700C527F3 /* Date DifferenceTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A13328801CCAC26700C527F3 /* Build configuration list for PBXNativeTarget "Date DifferenceTests" */;
+			buildPhases = (
+				A13328651CCAC26700C527F3 /* Sources */,
+				A13328661CCAC26700C527F3 /* Frameworks */,
+				A13328671CCAC26700C527F3 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A133286B1CCAC26700C527F3 /* PBXTargetDependency */,
+			);
+			name = "Date DifferenceTests";
+			productName = "Date DifferenceTests";
+			productReference = A13328691CCAC26700C527F3 /* Date DifferenceTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		A13328731CCAC26700C527F3 /* Date DifferenceUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A13328831CCAC26700C527F3 /* Build configuration list for PBXNativeTarget "Date DifferenceUITests" */;
+			buildPhases = (
+				A13328701CCAC26700C527F3 /* Sources */,
+				A13328711CCAC26700C527F3 /* Frameworks */,
+				A13328721CCAC26700C527F3 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A13328761CCAC26700C527F3 /* PBXTargetDependency */,
+			);
+			name = "Date DifferenceUITests";
+			productName = "Date DifferenceUITests";
+			productReference = A13328741CCAC26700C527F3 /* Date DifferenceUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A133284D1CCAC26600C527F3 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0730;
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = "Samrudhi Nayak";
+				TargetAttributes = {
+					A13328541CCAC26600C527F3 = {
+						CreatedOnToolsVersion = 7.3;
+					};
+					A13328681CCAC26700C527F3 = {
+						CreatedOnToolsVersion = 7.3;
+						TestTargetID = A13328541CCAC26600C527F3;
+					};
+					A13328731CCAC26700C527F3 = {
+						CreatedOnToolsVersion = 7.3;
+						TestTargetID = A13328541CCAC26600C527F3;
+					};
+				};
+			};
+			buildConfigurationList = A13328501CCAC26600C527F3 /* Build configuration list for PBXProject "Date Difference" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = A133284C1CCAC26600C527F3;
+			productRefGroup = A13328561CCAC26600C527F3 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A13328541CCAC26600C527F3 /* Date Difference */,
+				A13328681CCAC26700C527F3 /* Date DifferenceTests */,
+				A13328731CCAC26700C527F3 /* Date DifferenceUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		A13328531CCAC26600C527F3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A13328631CCAC26600C527F3 /* LaunchScreen.storyboard in Resources */,
+				A13328601CCAC26600C527F3 /* Assets.xcassets in Resources */,
+				A133285E1CCAC26600C527F3 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A13328671CCAC26700C527F3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A13328721CCAC26700C527F3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A13328511CCAC26600C527F3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A133285B1CCAC26600C527F3 /* ViewController.swift in Sources */,
+				A112EF121CD1567E00ECE987 /* GregarianCalendar.swift in Sources */,
+				A13328591CCAC26600C527F3 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A13328651CCAC26700C527F3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A133286E1CCAC26700C527F3 /* Date_DifferenceTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A13328701CCAC26700C527F3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A13328791CCAC26700C527F3 /* Date_DifferenceUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		A133286B1CCAC26700C527F3 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A13328541CCAC26600C527F3 /* Date Difference */;
+			targetProxy = A133286A1CCAC26700C527F3 /* PBXContainerItemProxy */;
+		};
+		A13328761CCAC26700C527F3 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A13328541CCAC26600C527F3 /* Date Difference */;
+			targetProxy = A13328751CCAC26700C527F3 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		A133285C1CCAC26600C527F3 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A133285D1CCAC26600C527F3 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		A13328611CCAC26600C527F3 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A13328621CCAC26600C527F3 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		A133287B1CCAC26700C527F3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		A133287C1CCAC26700C527F3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		A133287E1CCAC26700C527F3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "Date Difference/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.example.samrudhinayak.Date-Difference";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		A133287F1CCAC26700C527F3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "Date Difference/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.example.samrudhinayak.Date-Difference";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		A13328811CCAC26700C527F3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "Date DifferenceTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.example.samrudhinayak.Date-DifferenceTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Date Difference.app/Date Difference";
+			};
+			name = Debug;
+		};
+		A13328821CCAC26700C527F3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "Date DifferenceTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.example.samrudhinayak.Date-DifferenceTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Date Difference.app/Date Difference";
+			};
+			name = Release;
+		};
+		A13328841CCAC26700C527F3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "Date DifferenceUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.example.samrudhinayak.Date-DifferenceUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "Date Difference";
+			};
+			name = Debug;
+		};
+		A13328851CCAC26700C527F3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "Date DifferenceUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.example.samrudhinayak.Date-DifferenceUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "Date Difference";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A13328501CCAC26600C527F3 /* Build configuration list for PBXProject "Date Difference" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A133287B1CCAC26700C527F3 /* Debug */,
+				A133287C1CCAC26700C527F3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A133287D1CCAC26700C527F3 /* Build configuration list for PBXNativeTarget "Date Difference" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A133287E1CCAC26700C527F3 /* Debug */,
+				A133287F1CCAC26700C527F3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A13328801CCAC26700C527F3 /* Build configuration list for PBXNativeTarget "Date DifferenceTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A13328811CCAC26700C527F3 /* Debug */,
+				A13328821CCAC26700C527F3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A13328831CCAC26700C527F3 /* Build configuration list for PBXNativeTarget "Date DifferenceUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A13328841CCAC26700C527F3 /* Debug */,
+				A13328851CCAC26700C527F3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = A133284D1CCAC26600C527F3 /* Project object */;
+}
